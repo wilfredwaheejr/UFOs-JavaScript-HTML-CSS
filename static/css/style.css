@@ -3,7 +3,26 @@ body {
     color: #f7f7f7;
   }
 .jumbotron {
-background-image: url("images/nasa.jpg");
+position: relative; 
+background-image: url("../images/nasa.jpg");
 background-size: 100% 100%;
 text-align: center;
+}
+/*.container-fluid {
+    position: absolute;
+}*/
+img {
+    
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+
+
+}
+.display-4 {
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
